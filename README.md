@@ -81,7 +81,7 @@ The coefficients $a$, $b$, $c$ are computed using least-squares regression at ea
 
 With the fitted volatility surface in hand, we compute a "theoretical fair price" for each option by plugging the fitted IV back into Black-Scholes. We then compare this to the observed mid-market price:
 
-$$\text{diff}\_t = \text{BS\_Price}(IV\_{\text{fitted}}) - \text{Market\_Price}\_t$$
+$$\text{diff}_{t} = \text{BS Price}(IV_{\text{fitted}}) - \text{Market Price}_{t}$$
 
 To generate robust trading signals, we apply a rolling-window standardization approach:
 
